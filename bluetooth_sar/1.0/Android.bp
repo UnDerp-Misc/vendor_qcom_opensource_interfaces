@@ -2,7 +2,7 @@
 
 hidl_interface {
     name: "vendor.qti.hardware.bluetooth_sar@1.0",
-    root: "vendor.qti.hardware",
+    root: "vendor.qti.hardware.bluetooth_sar",
     product_specific: true,
     srcs: [
         "IBluetoothSar.hal",
@@ -12,4 +12,3 @@ hidl_interface {
     ],
     gen_java: true,
 }
-
